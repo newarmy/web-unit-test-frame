@@ -1,0 +1,31 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "create test constructor using karma and jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start my.conf.js --single-run  --reporters junit,dots",
+    "test-g": "karma start my.conf.js --single-run"
+  },
+  "author": "dxj",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-growl-reporter": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.4",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0"
+  }
+}
